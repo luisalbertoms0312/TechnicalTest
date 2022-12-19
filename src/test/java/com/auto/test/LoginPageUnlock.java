@@ -1,4 +1,4 @@
-package com.auto.unlockuser.test;
+package com.auto.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.auto.template.Base;
