@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class Base {
+public class Template {
 	
 	private WebDriver driver;
 	
-	public Base(WebDriver driver) {
+	public Template(WebDriver driver) {
 		this.driver = driver;
 	}
 	

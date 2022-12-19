@@ -1,11 +1,11 @@
 package com.auto.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import com.auto.template.Base;
+import com.auto.template.Template;
 
 
 
-public class LoginPageUnlock extends Base{
+public class LoginPageUnlock extends Template{
 
 	private WebDriver driver;
 	
