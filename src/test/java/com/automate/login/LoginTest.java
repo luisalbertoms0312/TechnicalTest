@@ -1,6 +1,7 @@
 package com.automate.login;
 import org.openqa.selenium.WebDriver;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -31,7 +32,11 @@ public class LoginTest {
 		loginPage.loginUser(username, password);
 	}
 //
-//	
+
+	@After
+	public void close() {
+		driver.quit();
+	}
 //	}
 //
 //	@And("^And Click on login Page$")
